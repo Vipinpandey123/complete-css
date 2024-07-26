@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>border box size property</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+
+    }
+    .button{
+      height: 100px;
+      width: 100px;
+      border:2px dashed black;
+      background-color: blue;
+    }
+    #button1{
+      box-sizing: border-box;
+    }
+    #button2{
+      box-sizing: content-box;
+    }
+
+  </style>
+</head>
+<body>
+  <button id="button1" class="button">click me 1</button>
+  <button id="button2" class="button">click me 2</button>
+  
+</body>
+</html>
